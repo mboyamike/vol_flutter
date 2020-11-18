@@ -7,4 +7,6 @@ Therefore it does not have the full qualities of a flight booking app. The reser
 accessible by other users
 
 ## Home Screen
-<img src=https://github.com/mboyamike/vol_flutter/blob/master/Screenshot_1605688539.png />
+<img src=https://github.com/mboyamike/vol_flutter/blob/master/Screenshot_1605688539.png width="200" />
+
+At the home screen, a user is able to select their destination and where they are coming from

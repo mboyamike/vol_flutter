@@ -7,4 +7,4 @@ Therefore it does not have the full qualities of a flight booking app. The reser
 accessible by other users
 
 ## Home Screen
-[Home Screen Picture](https://github.com/mboyamike/vol_flutter/blob/master/Screenshot_1605688539.png)
+<img src=https://github.com/mboyamike/vol_flutter/blob/master/Screenshot_1605688539.png />

@@ -57,9 +57,12 @@ class _SeatsPageState extends State<SeatsPage> {
                         });
                     },
                     child: Container(
-                      height: 20,
-                      width: 20,
-                      color: color,
+                      padding: EdgeInsets.all(8),
+                      child: Icon(
+                        Icons.airline_seat_recline_normal,
+                        size: 40,
+                        color: color,
+                      ),
                     ),
                   );
                 },
@@ -76,30 +79,30 @@ class _SeatsPageState extends State<SeatsPage> {
               children: [
                 Column(
                   children: [
-                    Container(
+                    Icon(
+                      Icons.airline_seat_recline_normal,
                       color: Colors.green,
-                      height: 30,
-                      width: 30,
+                      size: 30,
                     ),
                     Text("Available Seat"),
                   ],
                 ),
                 Column(
                   children: [
-                    Container(
+                    Icon(
+                      Icons.airline_seat_recline_normal,
                       color: Colors.orange,
-                      height: 30,
-                      width: 30,
+                      size: 30,
                     ),
                     Text("Selected Seat"),
                   ],
                 ),
                 Column(
                   children: [
-                    Container(
+                    Icon(
+                      Icons.airline_seat_recline_normal,
                       color: Colors.red,
-                      height: 30,
-                      width: 30,
+                      size: 30,
                     ),
                     Text("Unavailable Seat"),
                   ],
